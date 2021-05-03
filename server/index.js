@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const BN = require('bn.js')
 const EC = require('elliptic').ec
 const SHA256 = require('crypto-js/sha256')
 const ec = new EC('secp256k1')
@@ -32,7 +31,7 @@ for (let i = 0; i < 3; i++) {
 console.log('')
 console.log('Available Accounts')
 console.log('==================')
-accounts.forEach((account, index) => console.log(`(${index}) ${account.public}`))
+accounts.forEach((account, index) => console.log(`(${index}) ${account.public} (${balances[account.public]})`))
 console.log('')
 console.log('Private Keys')
 console.log('==================')
