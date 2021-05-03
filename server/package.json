@@ -1,13 +1,13 @@
 {
-  "name": "exchange",
+  "name": "exchange-server",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "sass": "^1.26.7"
-  },
   "dependencies": {
+    "bn.js": "^5.2.0",
     "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.4",
     "express": "^4.17.1"
   }
 }

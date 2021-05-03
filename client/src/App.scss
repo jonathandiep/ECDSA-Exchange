@@ -3,7 +3,7 @@ body {
   font-weight: 300;
 }
 
-input {
+textarea {
   padding: 9px 25px;
   border-radius: 5px;
   text-transform: uppercase;
@@ -15,7 +15,7 @@ input {
   margin: 10px 0;
   padding: 5px 0;
   &:before {
-    content: "Balance:";
+    content: 'Balance:';
   }
 }
 
@@ -31,7 +31,7 @@ input {
     border-radius: 10px;
 
     h1 {
-        margin: 0 0 20px;
+      margin: 0 0 20px;
     }
   }
 }

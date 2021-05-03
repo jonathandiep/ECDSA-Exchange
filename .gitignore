@@ -2,3 +2,6 @@ dist
 .cache
 !.gitignore
 *.lock
+
+client/node_modules/
+server/node_modules/
